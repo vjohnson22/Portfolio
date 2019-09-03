@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-
+import {Link, Route} from 'react-router-dom';
+import Home from './Home/Home'
 import './App.css';
 
 class App extends Component {
@@ -8,12 +9,15 @@ class App extends Component {
     <div>
       <nav className='navBar'>
         <ul>
-          <li>Home</li>
+          <Link to='/'><li>Home</li></Link>
           <li>Portfolio</li>
           <li>Resume</li>
           <li>LinkedIn</li>
         </ul>
       </nav>
+      <main>
+        <Route path='/' component={Home}/>
+      </main>
     </div>
   )
   }
