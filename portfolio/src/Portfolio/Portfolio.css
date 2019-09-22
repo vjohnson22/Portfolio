@@ -1,9 +1,9 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
     text-align: center;
 }
 
-.grid * {
+/* .grid * {
     border: 4px solid black;
-}
+} */
