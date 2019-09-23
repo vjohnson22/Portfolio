@@ -5,7 +5,7 @@
     height: 700px;
     margin: 10px 30px 10px 30px; 
     display: grid;
-    grid-template-rows: 10% 50% 20% 20%;
+    grid-template-rows: 10% 45% 15% 20% 10%;
     /* align-items: center; */
     border: 4px solid black;
     border-radius: 20px;
@@ -13,16 +13,17 @@
 }
 .title{
     font-size: 48px;
-    margin: 5px;
+    margin: 15px 0 0 0;
+    text-decoration: underline;
 }
 
 .box *{
-    border: solid red 4px;
-    font-family: "Rubik", sans-serif; 
+    /* border: solid red 4px; */
+    /* font-family: "Rubik", sans-serif;  */
     
 }
 .techs *{
-    border: solid green 4px;
+    /* border: solid green 4px; */
 
     /* display: flex; */
     /* flex-direction: column; */
@@ -39,8 +40,30 @@ img {
     margin: 10px 10px;
     max-width: 90%;
     max-height: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 li {
     color: black;
+}
+
+.git {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    
+}
+
+.git *{
+    color: black;
+    
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.techList{
+    font-size: 20px;
 }
