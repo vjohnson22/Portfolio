@@ -14,8 +14,9 @@ class App extends Component {
         <ul>
           <Link to='/'><li>Home</li></Link>
           <Link to='/portfolio'><li>Portfolio</li></Link>
-          <li>Resume</li>
-          <li>LinkedIn</li>
+          <a href='https://drive.google.com/file/d/1IvEaG2ixWHRpmUYWqdhLik1CrNdr7Jcw/view?usp=sharing' target='_blank'><li>Resume</li></a>
+          <a href='https://www.linkedin.com/in/vjohnson22/' target='_blank'><li>LinkedIn</li></a>
+          <a href='https://github.com/vjohnson22?tab=repositories' target='_blank'><li>GitHub</li></a>
         </ul>
       </nav>
       <main>

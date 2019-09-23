@@ -1,10 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
 .main {
     max-width: 50%;
     margin: 0 auto;
-    padding: 200px;
+    padding: 25px;
     text-align: center;
 }
 
 span {
     color: crimson;
 }
+.image {
+    max-height: 500px;
+    border-radius: 15px;
+    box-shadow: 0, 15px, 15px, 0, black; 
+}
+
+button {
+    --borderWidth: 5;
+    --boxShadowDepth: 8;
+    --buttonColor: #f00;
+    --fontSize: 3;
+    --horizontalPadding: 16;
+    --verticalPadding: 8;
+  
+    background: transparent;
+    border: calc(var(--borderWidth) * 1px) solid var(--buttonColor);
+    box-shadow: calc(var(--boxShadowDepth) * 1px) calc(var(--boxShadowDepth) * 1px) 0 #888;
+    color: var(--buttonColor);
+    cursor: pointer;
+    font-size: calc(var(--fontSize) * 1rem);
+    /* font-weight: bold; */
+    outline: transparent;
+    padding: calc(var(--verticalPadding) * 1px) calc(var(--horizontalPadding) * 1px);
+    transition: box-shadow 0.15s ease;
+    font-family: "Rubik", sans-serif;
+    border-radius: 15px;
+  }
+  
+  button:hover {
+    box-shadow: calc(var(--boxShadowDepth) / 2 * 1px) calc(var(--boxShadowDepth) / 2 * 1px) 0 #888;
+  }
+  
+  button:active {
+    box-shadow: 0 0 0 #888;
+  }
