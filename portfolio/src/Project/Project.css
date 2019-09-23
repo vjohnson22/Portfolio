@@ -1,17 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
 .box{
     max-width: 80%;
     height: 700px;
-    /* margin: 0 auto; */
+    margin: 10px 30px 10px 30px; 
     display: grid;
-    grid-template-rows: 10% 50% 40%;
+    grid-template-rows: 10% 50% 20% 20%;
     /* align-items: center; */
+    border: 4px solid black;
+    border-radius: 20px;
+
 }
 .title{
     font-size: 48px;
+    margin: 5px;
 }
 
 .box *{
     border: solid red 4px;
+    font-family: "Rubik", sans-serif; 
     
 }
 .techs *{
@@ -25,10 +32,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
 
 img {
-    margin: 10px auto;
-    max-width: 100%;
-    max-height: 100%;
+    margin: 10px 10px;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+li {
+    color: black;
 }

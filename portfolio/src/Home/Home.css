@@ -1,0 +1,10 @@
+.main {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 200px;
+    text-align: center;
+}
+
+span {
+    color: crimson;
+}
