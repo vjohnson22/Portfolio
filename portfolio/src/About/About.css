@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
+.image {
+    max-height: 500px;
+    border-radius: 15px;
+    box-shadow: 0, 15px, 15px, 0, black; 
+}
+
+.body {
+    text-align: center;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+}

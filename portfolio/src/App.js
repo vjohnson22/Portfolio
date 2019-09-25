@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Link, Route} from 'react-router-dom';
 import './App.css';
-// import './satner 2/css/style.css'
 
+import About from './About/About'
 import Home from './Home/Home'
 import Portfolio from './Portfolio/Portfolio'
 
@@ -14,6 +14,7 @@ class App extends Component {
         <ul>
           <Link to='/'><li>Home</li></Link>
           <Link to='/portfolio'><li>Portfolio</li></Link>
+          <Link to='/about'><li>About Me</li></Link>
           <a href='https://drive.google.com/file/d/1IvEaG2ixWHRpmUYWqdhLik1CrNdr7Jcw/view' target='_blank'><li>Resume</li></a>
           <a href='https://www.linkedin.com/in/vjohnson22/' target='_blank'><li>LinkedIn</li></a>
           <a href='https://github.com/vjohnson22?tab=repositories' target='_blank'><li>GitHub</li></a>
@@ -22,7 +23,11 @@ class App extends Component {
       <main>
         <Route exact path='/' component={Home}/>
         <Route exact path='/portfolio' component={Portfolio}/>
+        <Route exact path='/about' component={About}/>
       </main>
+      <footer>
+      Contact me @ <a href = "mailto:vjohnson22@gmail.com">vjohnson22@gmail.com</a>
+      </footer>
     </div>
   )
   }
