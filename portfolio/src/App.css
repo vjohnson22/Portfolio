@@ -17,7 +17,22 @@ ul {
   color: white;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
+  
 }
+
+
 .navbar * {
-  /* border: solid black 4px; */
+  text-decoration: none;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+

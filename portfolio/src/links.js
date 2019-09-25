@@ -5,7 +5,7 @@ let data = [
         github:['https://github.com/vjohnson22/Game-Project'],
         name: 'Simon',
         description:"A game of memory, Simon uses vanilla Javascript to create random patterns that the player has to repeat correctly to move on. It comes in three difficulties, each with faster patterns, and more colors to remember",
-        technologies:['html', 'css', 'javascript'],
+        technologies:['HTML', 'CSS', 'Javascript'],
         screenshot:"https://i.imgur.com/yPVaCFy.png"
 
     },
@@ -23,7 +23,7 @@ let data = [
         github:['https://github.com/vjohnson22/madden-stats','https://github.com/vjohnson22/madden_app_backend'],
         name: 'Madden Stats',
         description:"A full stack React and Django application that allows my friends and I to track our statistics in player vs player games in Madden 20 for Playstation 4",
-        technologies:['React.js', 'Python', 'Django', 'PostGres SQL'],
+        technologies:['React.js', 'Python', 'Django', 'PostgreSQL'],
         screenshot:"https://i.imgur.com/zJBCC4e.png"
 
     }
