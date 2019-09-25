@@ -26,7 +26,8 @@ let data = [
         technologies:['React.js', 'Python', 'Django', 'PostgreSQL'],
         screenshot:"https://i.imgur.com/zJBCC4e.png"
 
-    }
+    },
+    
 ]
 
 export default data
