@@ -5,7 +5,7 @@
 .main {
     max-width: 80%;
     margin: 0 auto;
-    padding: 50px; 
+    padding: 50px 50px 20px 50px; 
     text-align: center;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -83,4 +83,9 @@ button {
     display: flex;
     justify-content: space-around
   }
+  .experience {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+
  
