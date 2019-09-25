@@ -5,15 +5,25 @@ import {Link} from 'react-router-dom';
 class Home extends React.Component{
     render(){
         return(
-            <div className= 'main'>
-                <div>
-                    <h1>Hi, I'm <span >Victor Johnson</span></h1>
-                    <h2>I'm a Washington, DC based Web Developer with 8 years experience in Professional Services and Customer Success at analytical software startups</h2>
+            <div >
+                <div className= 'main'>
+                    <div className='flex1'>
+                        <div>
+                        <h1>Hi, I'm </h1>
+                        <h1><span >Victor Johnson</span></h1>
+                        <li>Washington, DC based Web Developer</li> 
+                        <li>8 years experience in Professional Services and Customer Success at analytical software startups</li>
+                        </div>
+                    </div>
+                    <div>
+                        <img className='image' src="https://i.imgur.com/6uhwDfR.png"/>
+                    </div>
+                </div> 
+                <div className='buttonSpacing'>   
+                    <Link to='/portfolio'><button>Portfolio</button></Link>
+                    <Link to='/about'><button>About Me</button></Link>
                 </div>
-                <img className='image' src="https://i.imgur.com/6uhwDfR.png"/>
-                <div>
-                    <Link to='/portfolio'><button>See What I've Created</button></Link>
-                </div>
+                
             </div>
         )
     }

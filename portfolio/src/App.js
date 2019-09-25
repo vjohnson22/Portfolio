@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link, Route} from 'react-router-dom';
 import './App.css';
-import './satner 2/css/style.css'
+// import './satner 2/css/style.css'
 
 import Home from './Home/Home'
 import Portfolio from './Portfolio/Portfolio'
