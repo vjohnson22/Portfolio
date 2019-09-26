@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 .image {
     max-height: 500px;
@@ -11,6 +12,6 @@
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: "Rubik", sans-serif;
-    font-size: 36px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
 }
