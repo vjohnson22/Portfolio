@@ -19,7 +19,7 @@ let data = [
 
     },
     {
-        link: 'http://gray-harbor.surge.sh/',
+        link: 'http://madden20.surge.sh/',
         github:['https://github.com/vjohnson22/madden-stats','https://github.com/vjohnson22/madden_app_backend'],
         name: 'Madden Stats',
         description:"A full stack React and Django application that allows my friends and I to track our statistics in player vs player games in Madden 20 for Playstation 4",
