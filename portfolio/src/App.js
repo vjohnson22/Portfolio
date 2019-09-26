@@ -15,7 +15,7 @@ class App extends Component {
           <Link to='/'><li>Home</li></Link>
           <Link to='/portfolio'><li>Portfolio</li></Link>
           <Link to='/about'><li>About Me</li></Link>
-          <a href='https://drive.google.com/file/d/1OeNfl4vlpHX2-fZsr0o5CD0x0psdfBMZ/view' target='_blank'><li>Resume</li></a>
+          <a href='https://drive.google.com/file/d/16ETyapUxHQUXaBb1WDmFhNvI9i5l8s48/view' target='_blank'><li>Resume</li></a>
           <a href='https://www.linkedin.com/in/vjohnson22/' target='_blank'><li>LinkedIn</li></a>
           <a href='https://github.com/vjohnson22?tab=repositories' target='_blank'><li>GitHub</li></a>
         </ul>
@@ -26,7 +26,7 @@ class App extends Component {
         <Route exact path='/about' component={About}/>
       </main>
       <footer>
-      Contact me @ <a href = "mailto:vjohnson22@gmail.com">vjohnson22@gmail.com</a>
+      Victor Johnson | Full Stack Software Developer | Contact me @ <a href = "mailto:vjohnson22@gmail.com">vjohnson22@gmail.com</a>
       </footer>
     </div>
   )

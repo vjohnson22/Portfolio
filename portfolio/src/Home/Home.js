@@ -15,7 +15,7 @@ class Home extends React.Component{
                         
                         <h1>Hi, I'm </h1>
                         <h1><span >Victor Johnson</span></h1>
-                        <li>Washington, DC based Web Developer</li> 
+                        <li>Washington, DC based Full Stack Software Engineer</li> 
                         <li>8 years experience in Professional Services and Customer Success at two analytical software startups</li>
                         
                         </div>
