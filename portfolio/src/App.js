@@ -26,7 +26,7 @@ class App extends Component {
         <Route exact path='/about' component={About}/>
       </main>
       <footer>
-      Victor Johnson | Full Stack Software Developer | Contact me @ <a href = "mailto:vjohnson22@gmail.com">vjohnson22@gmail.com</a>
+      Victor Johnson | Full Stack Software Engineer | Contact me @ <a href = "mailto:vjohnson22@gmail.com">vjohnson22@gmail.com</a>
       </footer>
     </div>
   )
