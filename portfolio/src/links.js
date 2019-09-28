@@ -24,7 +24,7 @@ let data = [
         name: 'Madden Stats',
         description:"A full stack React and Django application that allows my friends and I to track our statistics in player vs player games in Madden 20 for Playstation 4",
         technologies:['React.js', 'Python', 'Django', 'PostgreSQL'],
-        screenshot:"https://i.imgur.com/zJBCC4e.png"
+        screenshot:"https://i.imgur.com/LkNoTyZ.png"
 
     },
     
