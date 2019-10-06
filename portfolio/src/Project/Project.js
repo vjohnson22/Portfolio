@@ -8,7 +8,7 @@ class Project extends React.Component{
             return <li className='techList'key ={i}>{techno}</li>
         }) 
         let git = this.props.github.map((git, i)=>{
-            return <a href={git} target='_blank'><span className='link' key ={i}>  Link  </span></a>
+            return <a href={git} target='_blank'><span className='link' key ={i}>  Repo {i+1}  </span></a>
         })
         return(
             <div className='box'>
@@ -16,12 +16,12 @@ class Project extends React.Component{
                     <div className='imgContainer'>
                         <img src = {this.props.screenshot}/>
                     </div>
-                    <div>
+                    <div className = 'description'>
                         {this.props.description}
                     </div>
                     <div className='techs'>
                         <h3>Technologies Used:</h3>
-                        <ul>
+                        <ul className= 'techGrid'>
                             {tech}
                         </ul>
                      
