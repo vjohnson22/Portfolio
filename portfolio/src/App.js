@@ -11,7 +11,7 @@ class App extends Component {
   return (
     <div>
       <nav className='navbar' >
-        <ul>
+        <ul className='navLinks'>
           <Link to='/'><li>Home</li></Link>
           <Link to='/portfolio'><li>Portfolio</li></Link>
           <Link to='/about'><li>About Me</li></Link>

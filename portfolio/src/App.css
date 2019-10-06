@@ -2,9 +2,11 @@
 
 .navbar {
   background-color: red;
-  /* display: flex; */
-  /* flex-direction: row; */
+  width:100%;
   font-family: "Rubik", sans-serif;
+  position:fixed;
+  left:0;
+  top: 0;
 }
 
 ul {
@@ -14,7 +16,7 @@ ul {
   font-size: 24px;
   padding: 20px;
   margin: 0;
-  color: white;
+  
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   
@@ -35,4 +37,26 @@ footer {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
 }
+main{
+  margin-top: 50px; 
+}
 
+@media only screen and (max-width: 600px){
+  footer {
+    font-size:12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+  }
+  
+  .navbar * {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+  }
+  .navLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

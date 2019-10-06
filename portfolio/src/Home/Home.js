@@ -13,10 +13,10 @@ class Home extends React.Component{
                     <Typist>
                         <div>
                         
-                        <h1>Hi, I'm </h1>
-                        <h1><span >Victor Johnson</span></h1>
-                        <li>Washington, DC based Full Stack Software Engineer</li> 
-                        <li>8 years experience in Professional Services and Customer Success at two analytical software startups</li>
+                        <h1 className= 'bioH1'>Hi, I'm </h1>
+                        <h1 className= 'bioH1'><span className= 'bioH1' >Victor Johnson</span></h1>
+                        <li className='bio'>Washington, DC based Full Stack Software Engineer</li> 
+                        <li className='bio'>8 years experience in Professional Services and Customer Success at two analytical software startups</li>
                         
                         </div>
                         </Typist>
