@@ -10,15 +10,15 @@ class Home extends React.Component{
             <div >
                 <div className= 'main'>
                     <div className='flex1'>
-                    <Typist>
-                        <div>
+                        <Typist>
+                            <div>
                         
-                        <h1 className= 'bioH1'>Hi, I'm </h1>
-                        <h1 className= 'bioH1'><span className= 'bioH1' >Victor Johnson</span></h1>
-                        <li className='bio'>Washington, DC based Full Stack Software Engineer</li> 
-                        <li className='bio'>8 years experience in Professional Services and Customer Success at two analytical software startups</li>
-                        
-                        </div>
+                                <h1 className= 'bioH1'>Hi, I'm </h1>
+                                <h1 className= 'bioH1'><span className= 'bioH1' >Victor Johnson</span></h1>
+                                <li className='bio'>Washington, DC based Full Stack Software Engineer</li> 
+                                <li className='bio'>8 years experience in Professional Services and Customer Success at two analytical software startups</li>
+                                                    
+                            </div>
                         </Typist>
                     </div>
                     <div>
@@ -31,8 +31,7 @@ class Home extends React.Component{
                 <div className='buttonSpacing'>   
                     <Link to='/portfolio'><button>Portfolio</button></Link>
                     <Link to='/about'><button>About Me</button></Link>
-                </div>
-                
+                </div>         
             </div>
         )
     }
