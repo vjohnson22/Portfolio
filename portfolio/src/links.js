@@ -1,6 +1,15 @@
 
 let data = [
     {
+        link: 'http://madden20.surge.sh/',
+        github:['https://github.com/vjohnson22/madden-stats','https://github.com/vjohnson22/madden_app_backend'],
+        name: 'Madden Stats',
+        description:"A full stack React and Django application that allows my friends and I to track our statistics in player vs player games in Madden 20 for Playstation 4",
+        technologies:['React.js', 'Python', 'Django', 'PostgreSQL'],
+        screenshot:"https://i.imgur.com/LkNoTyZ.png"
+
+    },
+    {
         link: 'https://vjohnson22.github.io/',
         github:['https://github.com/vjohnson22/Game-Project'],
         name: 'Simon',
@@ -18,15 +27,7 @@ let data = [
         screenshot:"https://i.imgur.com/71pJRMN.jpg"
 
     },
-    {
-        link: 'http://madden20.surge.sh/',
-        github:['https://github.com/vjohnson22/madden-stats','https://github.com/vjohnson22/madden_app_backend'],
-        name: 'Madden Stats',
-        description:"A full stack React and Django application that allows my friends and I to track our statistics in player vs player games in Madden 20 for Playstation 4",
-        technologies:['React.js', 'Python', 'Django', 'PostgreSQL'],
-        screenshot:"https://i.imgur.com/LkNoTyZ.png"
-
-    },
+    
     
 ]
 
