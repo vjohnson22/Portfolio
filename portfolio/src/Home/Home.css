@@ -108,7 +108,7 @@ button {
  .image{
    max-height: 150px;
  }
- button{
+ .homeButtons{
    display: none;
  }
 

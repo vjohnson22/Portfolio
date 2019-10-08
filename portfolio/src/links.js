@@ -21,7 +21,7 @@ let data = [
     {
         link: 'http://onexone.surge.sh/',
         github:['https://github.com/vjohnson22/basketball-app','https://github.com/vjohnson22/basketball-backend'],
-        name: '1 on 1',
+        name: 'OneXOne',
         description:"A full stack (MERN) application that allows users to select NBA greats from the same or different eras, and compare their career stats, baselined against the top performers of their era. This allows us to definitively judge who was the best based on the play style of their heyday ",
         technologies:['React.js', 'Express.js', 'Node.js', 'MongoDB'],
         screenshot:"https://i.imgur.com/71pJRMN.jpg"

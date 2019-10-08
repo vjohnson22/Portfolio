@@ -12,7 +12,7 @@ class Project extends React.Component{
         })
         return(
             <div className='box'>
-                    <a className = 'title' href= {this.props.link} target='_blank'>{this.props.name} </a>
+                    <a className = 'title' href= {this.props.link} target='_blank'><button className= 'projectLink'>{this.props.name}</button> </a>
                     <div className='imgContainer'>
                         <img src = {this.props.screenshot}/>
                     </div>
@@ -30,7 +30,6 @@ class Project extends React.Component{
                         <span>  Github Repositories:  </span>{git}
                     </div>
             </div>
-            
         )
     }
 }
