@@ -26,7 +26,7 @@ class Home extends React.Component{
                     </div>
                 </div> 
                 <div className='experience'>
-                    <h2 >Experience with: HTML | CSS | Javascript | React.js | Node.js | MongoDB | Express.js | Django | Python</h2>
+                    <h2 >Experience with:  React.js | React Native | Vue.js | Node.js | MongoDB | Express.js | Django | Python</h2>
                 </div>
                 <div className='buttonSpacing'>   
                     <Link to='/portfolio'><button className= 'homeButtons'>Portfolio</button></Link>
